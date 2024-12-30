@@ -17,7 +17,7 @@
                 <h2>ODIN</h2>
             </div>
             <div class="pCenter">
-                <p> Photo by <a href="">X</a> on <a href="">Pixabay</a></p>
+                <p> Photo by <a href="">X</a> on <a href="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">Pixabay</a></p>
             </div>
         </div>
 
@@ -29,39 +29,48 @@
 
                 <h3>You <em>know</em> you want to.</h3>
             </div>
+            <h3 id="formTitle">Let's do this!</h3>
             <div class="secondPart">
 
-                <h3>Let's do this</h3>
-                <form action="" method="get">
 
+                <form action="" method="get">
                     <div class="FormContainer">
 
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name">
-
-
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="first-name" name="first-name">
-
-                        <label for="email">Email</label>
-                        <input type="text" id="first-name" name="first-name">
-
-                        <label for="phone-number">Phone Number</label>
-                        <input type="text" id="first-name" name="first-name">
-
-                        <label for="password">Password</label>
-                        <input type="text" id="password" name="password">
-
-                        <label for="password-confirm">Confirm Password</label>
-                        <input type="text" id="password-confirm" name="password-confirm">
+                        <div class="formCell">
+                            <label for="first-name">First Name</label><br>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="formCell">
+                            <label for="last-name">Last Name</label><br>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        <div class="formCell">
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="formCell">
+                            <label for="phone-number">Phone Number</label><br>
+                            <input type="tel" id="phone-number" name="phone-number" required>
+                        </div>
+                        <div class="formCell">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="formCell">
+                            <label for="password-confirm">Confirm Password</label><br>
+                            <input type="password" id="password-confirm" name="password-confirm" required>
+                        </div>
                     </div>
-
-                    <input type="submit" value="Submit">
-
-                </form>
             </div>
 
-            <h5>Already have an account ? <a href="#">Log In</a></h5>
+            <div class="submitDiv">
+                <input type="submit" value="Submit">
+                <h5>Already have an account ? <a href="#">Log In</a></h5>
+            </div>
+            </form>
+        </div>
+
+
 
         </div>
     </main>
